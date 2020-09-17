@@ -1,0 +1,19 @@
+.myTable {
+  border-collapse: collapse;
+}
+
+.myTable td,
+.myTable th {
+  border: 1px solid #666;
+  padding: 10px;
+}
+
+.myTable thead tr {
+  font-weight: bold;
+  background: #999;
+  border-bottom: 2px solid #666;
+}
+
+.myTable tbody tr:nth-child(even) {
+  background: #ddd;
+}
